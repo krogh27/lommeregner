@@ -48,7 +48,7 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
             
- 		elif choice == '4':
+ 		elif choice == '5':
             print(exit)
             quit()
         # check if user wants another calculation
