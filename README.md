@@ -1,3 +1,5 @@
+#farvel
+
 # lommeregner
 #Hej Hej
 # Byte-compiled / optimized / DLL files
