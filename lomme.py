@@ -32,7 +32,7 @@ while True:
     choice = input("Enter choice(1/2/3/4/5): ")
 
     # check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('1', '2', '3', '4','5'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
@@ -48,7 +48,7 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
             
- 	elif choice == '5':
+ 	    elif choice == '5':
           	print(exit)
             quit()
         # check if user wants another calculation
