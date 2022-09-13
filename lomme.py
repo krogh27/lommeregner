@@ -29,7 +29,7 @@ print("5.Exit")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4/5): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
@@ -48,8 +48,8 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
             
- 		elif choice == '5':
-            print(exit)
+ 	elif choice == '5':
+          	print(exit)
             quit()
         # check if user wants another calculation
         # break the while loop if answer is no
